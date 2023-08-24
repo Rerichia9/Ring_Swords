@@ -1,0 +1,265 @@
+@media screen and (max-width: 1500px) {
+  .body__lend {
+    background-position: 45% 0%;
+  }
+}
+
+@media screen and (max-width: 1300px) {}
+
+/* @media screen and (min-width: 1200px) and (max-height: 650px) {
+  .fortune__container {
+    top: -1.5vw;
+  }
+} */
+
+@media screen and (width: 1024px) and (height: 1366px) {
+  .fortune__container {
+    width: 102.31vw;
+    height: 93.25vw;
+    left: 0;
+  }
+
+  .center__fortune img {
+    width: 66vw;
+    top: -1vw;
+  }
+
+  .fortune__container {
+    top: 10vw;
+  }
+
+  .site_button {
+    display: none;
+  }
+
+  .logo__container {
+    height: unset;
+    width: 100vw;
+    right: 0;
+  }
+
+  .logo__text {
+    margin-top: 60px !important;
+    font-size: 64px;
+  }
+
+  .logo_link {
+    text-align: center;
+  }
+
+  .logo_link img {
+    width: 40%;
+    left: 30vw;
+  }
+
+  .button__fortune img {
+    width: 20.25vw;
+  }
+
+  .button__text {
+    font-size: 3.5vw;
+  }
+
+  .button__fortune {
+    width: 20.25vw;
+    top: 54.5%;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .body__lend {
+    /* height: 100%; */
+    background-image: url(../image/bg04.webp);
+  }
+
+  .sword {
+    display: none;
+  }
+
+  .logo__descr,
+  .side__text-left,
+  .side__text-right,
+  .offers,
+  .footer {
+    display: none;
+  }
+
+  .fortune__container {
+    top: 50px;
+  }
+
+  .logo_link img {
+    max-width: 260px;
+  }
+
+  .big__fortune {
+    transform: scale(0.5);
+  }
+
+  .big__fortune.winPosition {
+    transform: scale(0.5) rotate(2024.9deg);
+  }
+
+  .center__fortune {
+    transform: scale(0.5);
+  }
+
+  .center__fortune img {
+    transform: translateY(-195%);
+  }
+
+  .logo__wrapper {
+    flex-direction: column;
+  }
+
+  .logo_link {
+    margin-bottom: 25px;
+  }
+
+  .logo__descr-mob {
+    display: block;
+  }
+
+  .button__fortune {
+    padding: 4px 20px;
+    font-weight: 900;
+    font-size: 20.5128px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #00FF94 5.36%, #008E86 100%);
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.25), inset 0px 7px 10px #A4FAFF;
+    border-radius: 37px;
+    position: absolute;
+    z-index: 20;
+    top: 48.8%;
+    left: 46.3%;
+    /* transform: translateX(-55%) translateY(-72%); */
+  }
+
+  .pop-up__content,
+  .pop-up__content1 {
+    width: 274px;
+    height: 300px;
+    background-image: url(../image/pop-up-mob.webp);
+    justify-content: center;
+  }
+
+  .pop-up__btn {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .pop-up__text {
+    text-align: center;
+  }
+
+  .pop-up__title {
+    font-size: 36px;
+    margin-top: 0px;
+  }
+
+  .pop-up {
+    background-image: url(/image/tickets-mob.webp);
+    background-repeat: no-repeat;
+    background-position: 0px 0%;
+    background-size: cover;
+  }
+
+  .pop-up__header1 {
+    font-size: 20px;
+    line-height: 29px;
+    padding: 13px 24px;
+    top: -20px;
+  }
+
+  .pop-up__text-1 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+
+  .back__anim {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .newH .fortune__container {
+    transform: scale(0.5);
+    top: -300px;
+  }
+
+  .logo__wrapper {
+    top: 1vw;
+  }
+
+  .logo__descr {
+    font-size: 13px;
+    line-height: 102.5%;
+  }
+
+  .logo_link img {
+    max-width: 250px;
+  }
+
+  .footer {
+    max-width: 900px;
+    bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 600px) {}
+
+/* @keyframes animation1 {
+  0% {
+    transform: rotate(0deg) translate(-0.23vw) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(-0.23vw) rotate(-360deg);
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    transform: rotate(0deg) translate(2vw) rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg) translate(2vw) rotate(-360deg);
+  }
+}
+
+@keyframes animation3 {
+
+  0%,
+  to {
+    transform: translate(0%, 0%);
+  }
+
+  50% {
+    transform: translate(0%, 1vw);
+  }
+} */
+
+@media screen and (max-width: 450px) {}
+
+@media screen and (min-width: 384px) and (max-height: 854px) {}
+
+/* input:invalid {
+  border: 2px solid #0044ff;
+  background: linear-gradient(235.07deg,
+      rgba(6, 1, 255, 0.2) 18.34%,
+      rgba(6, 1, 255, 0) 61.89%),
+    #0d0b27;
+  box-shadow: inset -3px -3px 4px #1d47f0,
+    inset -9px -14px 30px rgba(0, 10, 255, 0.25);
+}
+
+input:invalid:required {
+  background: rgba(29, 71, 240, 0.4);
+}
+
+input:valid {
+  border: 2px solid black;
+} */
